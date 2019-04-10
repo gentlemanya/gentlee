@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+.clean:after{
+	clear: both;
+	display: block;
+	content: " ";
+    }
+.head{
+	width: 100%;
+	border: 0px solid red;
+	margin: 0 auto;
+	}
+.head-1{
+	width:1170px;
+	height: 100px;
+	margin: 0 auto;
+	border: 0px solid blueviolet;
+	}
+.head-1{
+	display:flex;
+	justify-content: space-between;
+	}
+.head-1-one{
+	width:600px;
+	height: 100px;
+	border: 0px solid blueviolet;
+}
+.head-1-two{
+	width:400px;
+	height: 100px;
+	border: 0px solid blueviolet;
+	line-height:10px;
+}
+.head-2{
+	width:100%;
+	height:344px;
+	border: 0px solid red;
+	background: url(../img/435.png) no-repeat;
+}
+.head-2-2 ul{
+	margin: auto;
+}
+.head-2-2 li{
+	display:flex;
+	justify-content: space-around;
+	float: left;
+	display:inline block;
+	margin-top:85px ;
+	margin-left: 70px;
+	
+	}	
+.head-2-2{
+	width:100%;
+	height:200px;
+	background: url(../img/44.png) center no-repeat;
+	position: relative;
+	top:-70px;
+}
+.head-2-2 ul{
+	margin-left: 100px;
+}
+a{
+	text-decoration: none;
+}
+.head-2-3{
+	width:100%;
+	height:390px;
+	background: url(../img/cst_03.png)center no-repeat;
+}
+.body{
+	width:100%;
+	height:760px;
+	border: 0px solid red;
+	margin: auto;
+}
+.body-1{
+	width:100%;
+	height:760px;
+	border: 0px solid red;
+}
+.footer{
+	width:100%;
+	height:338px;
+	border: 0px solid red;
+	margin-top:20px;
+}
+.footer-one{
+	width:100%;
+	height:38px;
+	background: url(../img/login_63.png);
+}
+.footer-two{
+	width:100%;
+	height:352px;
+	background: url(../img/foot_14.png);
+}
+.footer-one  li{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	font-size: 14px;
+	line-height:35px;
+	float: left;
+	margin-left: 95px;
+}
+.footer_down{
+	width: 100%;
+	height: 353px;
+}
+.food{
+	width: 1200px;
+	height: 353px;
+	margin: auto;
+}
+.food_1{
+	width: 1200px;
+	height: 63px;
+}
+.food_1 :after{
+	clear: both;
+	display: block;
+	content: " ";
+}
+.food_2{
+	width: 295px;
+	float: left;
+	
+}
+.food_2 ul li{	
+	margin-top: 5px;
+	color: #c3e3f1;
+}
+.food_3{
+	width: 295px;
+	float: left;
+	margin-left: 119px;
+}
+.food_3 ul li{	
+	margin-top: 5px;
+	color: #c3e3f1;
+}
+.food_4{
+	width: 295px;
+	float: right;
+	margin-left: 119px;
+}
+.food_4 ul li{	
+	margin-top: 5px;
+	color: #c3e3f1;
+}
